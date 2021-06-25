@@ -25,6 +25,7 @@
 #include "lvgl/examples/lv_examples.h"
 #include "lv_demos/lv_demo.h"
 #include "lv_drivers/win32drv/win32drv.h"
+#include "../SmartHomeUI/AppUI.h"
 
 #if _MSC_VER >= 1200
 // Restore compilation warnings.
@@ -61,8 +62,9 @@ int main()
     // ----------------------------------
     // Demos from lv_examples
     // ----------------------------------
+    UI::InitAppUI();
 
-    lv_demo_widgets();           // ok
+     //lv_demo_widgets();           // ok
     // lv_demo_benchmark();
     // lv_demo_keypad_encoder();    // ok
     // lv_demo_music();             // removed from repository
