@@ -10,3 +10,6 @@
 [submodule "SmartHomeUI"]
 	path = SmartHomeUI
 	url = git@github.com:ZoneLab/CIMC-2021-SmartHome-UI.git
+[submodule "lvgl_chinese_fonts"]
+	path = lvgl_chinese_fonts
+	url = git@github.com:isnowify/lvgl_chinese_fonts.git

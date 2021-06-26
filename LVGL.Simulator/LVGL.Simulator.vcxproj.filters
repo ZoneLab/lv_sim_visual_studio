@@ -1490,7 +1490,24 @@
     <ClCompile Include="lvgl\tests\lv_test_main.c">
       <Filter>lvgl\tests</Filter>
     </ClCompile>
-    <ClCompile Include="chinese.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_12.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_14.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_16.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_18.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_20.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_22.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_24.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_26.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_28.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_30.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_32.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_34.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_36.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_38.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_han_sans_regular_26.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_han_sans_regular_28.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_han_sans_regular_30.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_han_sans_regular_32.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="lvgl\.github\ISSUE_TEMPLATE\bug-report.md">
