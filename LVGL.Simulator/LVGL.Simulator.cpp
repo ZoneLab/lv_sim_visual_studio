@@ -62,7 +62,9 @@ int main()
     // ----------------------------------
     // Demos from lv_examples
     // ----------------------------------
-    UI::InitAppUI();
+    char* buf1 = (char*) malloc(1024 * 600 * 2);
+    char* buf2 = (char*) malloc(1024 * 600 * 2);
+    UI::InitAppUI(buf1, buf2);
 
      //lv_demo_widgets();           // ok
     // lv_demo_benchmark();
