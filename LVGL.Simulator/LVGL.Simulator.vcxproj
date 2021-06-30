@@ -9,7 +9,7 @@
   <Import Project="Mile.Project.VisualStudio\Mile.Project.Cpp.props" />
   <Import Project="Mile.Project.VisualStudio\Mile.Project.Cpp.VC-LTL.props" />
   <PropertyGroup>
-    <IncludePath>$(MSBuildThisFileDirectory);$(IncludePath)</IncludePath>
+    <IncludePath>$(MSBuildThisFileDirectory);lvgl;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
@@ -188,6 +188,7 @@
     <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_34.c" />
     <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_36.c" />
     <ClCompile Include="..\lvgl_chinese_fonts\lv_font_chinese_38.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_han_sans_bold_number_only_86.c" />
     <ClCompile Include="..\lvgl_chinese_fonts\lv_font_han_sans_regular_26.c" />
     <ClCompile Include="..\lvgl_chinese_fonts\lv_font_han_sans_regular_28.c" />
     <ClCompile Include="..\lvgl_chinese_fonts\lv_font_han_sans_regular_30.c" />

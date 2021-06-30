@@ -1508,6 +1508,7 @@
     <ClCompile Include="..\lvgl_chinese_fonts\lv_font_han_sans_regular_28.c" />
     <ClCompile Include="..\lvgl_chinese_fonts\lv_font_han_sans_regular_30.c" />
     <ClCompile Include="..\lvgl_chinese_fonts\lv_font_han_sans_regular_32.c" />
+    <ClCompile Include="..\lvgl_chinese_fonts\lv_font_han_sans_bold_number_only_86.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="lvgl\.github\ISSUE_TEMPLATE\bug-report.md">
